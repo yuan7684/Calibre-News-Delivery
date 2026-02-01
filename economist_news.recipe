@@ -213,7 +213,6 @@ class EconomistNews(BasicNewsRecipe):
     cover_url = 'https://m.media-amazon.com/images/M/MV5BNzJiZGYzNzgtNWY5Yi00NWYyLThmZGUtODQyM2ZkOWVlMDI1XkEyXkFqcGc@.jpg'
     oldest_article = 15
     resolve_internal_links = True
-    compress_news_images = True
 
     # economist.com has started throttling after about 60% of the total has
     # downloaded with connection reset by peer (104) errors.
